@@ -1,6 +1,6 @@
 # Carving
 
-TODO: Write a gem description
+Small helper to tag your logs as widely as possible.
 
 ## Installation
 
