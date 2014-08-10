@@ -21,5 +21,4 @@ describe Carving do
     CarvingTest.new.logger info "Hello, world"
     expect(buffer.string).to eq "Hello, world #alpha #beta:123 #gamma:456\n"
   end
-
 end

@@ -1,6 +1,4 @@
-# coding: utf-8
 require "carving/version"
-require "logger"
 
 module Carving
 
@@ -8,7 +6,6 @@ module Carving
   # Adds the class-level logger(…) customization method.
   def self.included(base)
     base.extend(Meta)
-    puts "Extended Carving; base:#{base}"
   end
 
   # Adds the class-level logger(…) customization method.
@@ -69,5 +66,3 @@ module Carving
   end # Logger
 
 end # Carving
-
-puts __FILE__
